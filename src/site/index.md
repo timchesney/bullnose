@@ -11,6 +11,6 @@ layout: layouts/base.njk
     <a href="{{ page.url }}">{{ page.data.title }}</a> -
   </h2>
   <time datetime="{{ page.date }}">{{ page.date | dateDisplay }}</time>
-  <p>{{ page.subtitle}}</p>
+  <p>{{ page.data.subtitle}}</p>
 {%- endfor -%}
 </div>
