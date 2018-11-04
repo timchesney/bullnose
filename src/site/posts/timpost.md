@@ -1,5 +1,6 @@
 ---
 title: This is my post
+subtitle: A brief into to this incredible blog
 date: 2018-10-04
 ---
 
@@ -12,4 +13,4 @@ Can we do lists?
 * item two
 * item three
 
-Pretty **amazing** stuff 
+Pretty **amazing** stuff

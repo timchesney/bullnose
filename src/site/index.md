@@ -5,27 +5,12 @@ layout: layouts/base.njk
 ---
 
 
-## This site is a starting point
-
-From this point we should already have:
-
-- [Eleventy](https://11ty.io) with a skeleton site
-- A date format filter for Nunjucks
-- Sass pipeline
-- JS pipeline
-- JS [search index](/search.json) generator
-- Serverless (FaaS) development pipeline with Netlify Functions for Lambda
-
-
-## Post pages
-
-The pages found in in the posts
-
-<ul class="listing">
+<div class="posts">
 {%- for page in collections.post | reverse -%}
-  <li>
+  <h2>
     <a href="{{ page.url }}">{{ page.data.title }}</a> -
-    <time datetime="{{ page.date }}">{{ page.date | dateDisplay }}</time>
-  </li>
+  </h2>
+  <time datetime="{{ page.date }}">{{ page.date | dateDisplay }}</time>
+  <p>{{ page.subtitle}}</p>
 {%- endfor -%}
-</ul>
+</div>
