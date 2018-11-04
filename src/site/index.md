@@ -1,6 +1,6 @@
 ---
-title: EleventyOne
-subtitle: A project scaffold for getting building with Eleventy quickly.
+title: Bullnose
+subtitle: NZ couple resotring a historic building
 layout: layouts/base.njk
 ---
 
