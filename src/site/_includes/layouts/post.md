@@ -4,6 +4,9 @@ pageClass: posts
 templateEngineOverride: njk, md
 ---
 
+<h1>{{ title }}</h1>
+{%- if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}
+
 <p class="date">
   Posted on <time datetime="{{ date }}">{{ date | dateDisplay }}</time>
 </p>
