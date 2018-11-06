@@ -93,12 +93,13 @@ a:focus {
   border-bottom: solid 1px $accent-color;
 }
 
-
+header {
+	padding: 3em 0;
+  	background-color: $text-color;
+  	color: $page-color;
+}
 
 .nav {
-  padding: 3em 0;
-  background-color: $text-color;
-  color: $page-color;
   ul {
   	padding-left: 0;
   }
@@ -118,7 +119,6 @@ a:focus {
     margin-right: 0.7em;
     width: 8em;
     text-align: left;
-    color: mix($text-color,$page-color, 80%);
     text-decoration: none;
   }
   a:hover,
@@ -126,12 +126,6 @@ a:focus {
       color: $text-color;
       border-top: solid 1px $accent-color;
       border-bottom-style: none;
-  }
-
-  small {
-    display: block;
-    font-size: 0.7em;
-    color: mix($text-color,$page-color, 60%);
   }
 }
 
