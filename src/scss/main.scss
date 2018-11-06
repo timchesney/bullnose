@@ -96,7 +96,12 @@ a:focus {
 
 
 .nav {
-  padding-top: 3em;
+  padding: 3em 0;
+  background-color: $text-color;
+  color: $page-color;
+  ul {
+  	padding-left: 0;
+  }
 
   li {
     display: inline;
