@@ -110,6 +110,7 @@ header {
 
   a:link,
   a:visited {
+  	color: $page-color;
     display: inline-block;
     border-top: solid 1px mix($text-color,$page-color, 60%);
     border-bottom-style: none;
